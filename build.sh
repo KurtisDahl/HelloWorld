@@ -14,8 +14,8 @@ KEYCHAIN=~/Library/Keychains/login.keychain
 #security unlock -p `cat ~/.build_password`
 
 for config in $CONFIGURATIONS; do
-
-xcodebuild -activetarget -configuration $config build > Klogfile.txt || failed build;
+echo "Made it into the configs loop"
+echo xcodebuild -activetarget -configuration $config build > Klogfile.txt || failed build;
 
 
 done
