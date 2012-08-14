@@ -7,4 +7,8 @@ KEYCHAIN=~/Library/Keychains/login.keychain
 
 #security unlock -p `cat ~/.build_password`
 
-xcodebuild
+for config in $CONFIGURATIONS; do
+
+xcodebuild -activetarget -configuration $config build
+
+done
