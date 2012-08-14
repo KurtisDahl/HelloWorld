@@ -1,5 +1,5 @@
 #!/bin/sh
 
-security unlock -p `cat .build_password`
+security unlock -p entombed12
 
 xcodebuild
