@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -ex 
+set -ex
 
 PROFILE_HOME=~/Library/MobileDevice/Provisioning\ Profiles/
 KEYCHAIN=~/Library/Keychains/login.keychain
