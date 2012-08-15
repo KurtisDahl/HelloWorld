@@ -1,7 +1,7 @@
 #!/bin/sh
 
-security unlock-keychain -p `cat ~/.build_password` "$HOME/Library/Keychains/login.keychain"
-security default-keychain -s "$HOME/Library/Keychains/login.keychain"
+security unlock-keychain -p `cat ~/.build_password` "Users/KurtisRatio/Library/Keychains/login.keychain"
+security default-keychain -s "Users/KurtisRatio/Library/Keychains/login.keychain"
 
 xcodebuild
 
