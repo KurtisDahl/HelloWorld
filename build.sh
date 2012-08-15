@@ -1,5 +1,5 @@
 #!/bin/sh
 
-#security unlock-keychain -p `cat ~/.build_password` /Users/Jenkins/Keychains/login.keychain
+#security unlock-keychain -p `cat ~/.build_password` 
 
 xcodebuild
