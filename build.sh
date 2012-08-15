@@ -2,6 +2,6 @@
 
 security unlock-keychain -p `cat ~/.build_password` 
 
-xcodebuild -target MyTarget -sdk iphoneos
+xcodebuild -target HelloWorld -sdk iphoneos
 
 echo "Got it Working!!!!"
