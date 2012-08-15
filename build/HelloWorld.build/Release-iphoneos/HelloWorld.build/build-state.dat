@@ -115,15 +115,15 @@ t2
 s0
 
 N/Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app
-t1345048190
+t1345048404
 s306
 
 N/Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app.dSYM
-t1345048188
+t1345048401
 s102
 
 N/Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app/HelloWorld
-t1345048190
+t1345048404
 s39968
 
 N/Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app/Info.plist
@@ -166,16 +166,16 @@ s1214
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc13b99d106dcb541^2e72efd106dcb541^---0#1#0#--18"Check dependencies36"F502E2C2-071D-48B9-A88D-505B0DE5EB7A-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesb3b22d6a43dcb541^7383c16a43dcb541^---0#1#0#--18"Check dependencies36"60E4A394-D639-4DE2-BBE2-5AFE01C25566-
 
 CCodeSign /Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app
-s366741202.051310
-e366741204.536251
+s366756714.924186
+e366756717.504229
 r1
 xCodeSign
 x/Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app
 o/Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app: replacing existing signature
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"CodeSign build/Release-iphoneos/HelloWorld.app9a440dd206dcb541^fd8689d406dcb541^-107"/Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app: replacing existing signature-0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app/0000000000000000^852"CodeSign build/Release-iphoneos/HelloWorld.app    cd /Users/KurtisRatio/Documents/HelloWorld    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /usr/bin/codesign --force --sign 63e95ba07dbdffe46b6e6ad73eee78a6e098a628 --resource-rules=/Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app/ResourceRules.plist --entitlements /Users/KurtisRatio/Documents/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld.xcent /Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app36"5F098F19-9E55-45E1-B62B-14ABE0A9FED9-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"CodeSign build/Release-iphoneos/HelloWorld.app20b2ec6a43dcb541^5915816d43dcb541^-107"/Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app: replacing existing signature-0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app/0000000000000000^852"CodeSign build/Release-iphoneos/HelloWorld.app    cd /Users/KurtisRatio/Documents/HelloWorld    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /usr/bin/codesign --force --sign 63e95ba07dbdffe46b6e6ad73eee78a6e098a628 --resource-rules=/Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app/ResourceRules.plist --entitlements /Users/KurtisRatio/Documents/HelloWorld/build/HelloWorld.build/Release-iphoneos/HelloWorld.build/HelloWorld.xcent /Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app36"AC994033-96BA-4389-AAFF-F0667ED10A71-
 
 CCompileC build/HelloWorld.build/Release-iphoneos/HelloWorld.build/Objects-normal/armv7/HelloWorldAppDelegate.o /Users/KurtisRatio/Documents/HelloWorld/HelloWorld/HelloWorldAppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s366740786.126976
@@ -244,13 +244,13 @@ xbuild/Release-iphoneos/HelloWorld.app/ResourceRules.plist
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Release-iphoneos/HelloWorld.app/ResourceRules.pliste86acf3005dcb541^0873d33005dcb541^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app/ResourceRules.plist000000000080d041^898"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist build/Release-iphoneos/HelloWorld.app/ResourceRules.plist    cd /Users/KurtisRatio/Documents/HelloWorld    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.1.sdk/ResourceRules.plist /Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app36"A7C596D6-72FD-407F-A3FC-79E4FA6174F1-
 
 CGenerateDSYMFile /Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app.dSYM /Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app/HelloWorld
-s366741201.972335
-e366741202.001070
+s366756714.797741
+e366756714.872747
 r1
 xGenerateDSYMFile
 x/Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app.dSYM
 x/Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app/HelloWorld
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Generating /Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app.dSYMcf15f9d106dcb541^c74a00d206dcb541^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app.dSYM/0000000000000000^653"GenerateDSYMFile build/Release-iphoneos/HelloWorld.app.dSYM build/Release-iphoneos/HelloWorld.app/HelloWorld    cd /Users/KurtisRatio/Documents/HelloWorld    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app/HelloWorld -o /Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app.dSYM36"91963749-FE2C-4EF0-A905-07C9874D9CE5-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Generating /Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app.dSYM5664cc6a43dcb541^f19edf6a43dcb541^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app.dSYM/0000000000000000^653"GenerateDSYMFile build/Release-iphoneos/HelloWorld.app.dSYM build/Release-iphoneos/HelloWorld.app/HelloWorld    cd /Users/KurtisRatio/Documents/HelloWorld    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app/HelloWorld -o /Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app.dSYM36"C10C42A5-45FD-488E-9EEC-0ACEB2707178-
 
 CLd /Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app/HelloWorld normal armv7
 s366740786.545383
@@ -311,13 +311,13 @@ x/Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Touch /Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app05695a3b05dcb541^9f015d3b05dcb541^---0#0#0#--413"Touch build/Release-iphoneos/HelloWorld.app    cd /Users/KurtisRatio/Documents/HelloWorld    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app36"10CAA0E1-C956-44BA-8DA3-F77C20692C34-
 
 CValidate /Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app
-s366741204.544636
-e366741205.039921
+s366756717.512786
+e366756718.154398
 r1
 xValidate
 x/Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app
 owarning: iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)
 oUnable to validate your application. - (null)
 o
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Validate build/Release-iphoneos/HelloWorld.appc2868bd406dcb541^f7390ad506dcb541^-45"Unable to validate your application. - (null)1(21%IDEActivityLogMessage2@202" iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)192"IPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57366741205#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---0#0#0#-19%DVTDocumentLocation4@94"file://localhost/Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app/0000000000000000^557"Validate build/Release-iphoneos/HelloWorld.app    cd /Users/KurtisRatio/Documents/HelloWorld    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app36"790CCE66-2E3E-4901-8CC6-6F6945A7FCD4-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Validate build/Release-iphoneos/HelloWorld.app8b70836d43dcb541^d28e276e43dcb541^-45"Unable to validate your application. - (null)1(21%IDEActivityLogMessage2@202" iPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57 (-19013)192"IPhone/iPod Touch: Info.plist: Unable to verify icon dimensions, no icon found.  You must define CFBundleIcons, CFBundleIconFiles, CFBundleIconFile, or provide a default Icon.png that is 57x57366756718#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#---0#0#0#-19%DVTDocumentLocation4@94"file://localhost/Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app/0000000000000000^557"Validate build/Release-iphoneos/HelloWorld.app    cd /Users/KurtisRatio/Documents/HelloWorld    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin"    setenv PRODUCT_TYPE com.apple.product-type.application    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/Validation /Users/KurtisRatio/Documents/HelloWorld/build/Release-iphoneos/HelloWorld.app36"5407AA32-ACA6-43DF-9915-8B0C5BFEA0E8-
 
