@@ -2,6 +2,6 @@
 
 security unlock-keychain -p `cat ~/.build_password`
 
-xcodebuild
+xcodebuild 
 
 echo "Got it Working!!!!"
