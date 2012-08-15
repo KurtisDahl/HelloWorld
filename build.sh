@@ -1,7 +1,6 @@
 #!/bin/sh
 
-security unlock-keychain -p `cat ~/.build_password` /Users/Shared/Jenkins/Library/Keychains/jenkins.keychain
-
+security unlock-keychain -p `cat ~/.build_password`
 xcodebuild
 
 echo "Got it Working!!!!"
